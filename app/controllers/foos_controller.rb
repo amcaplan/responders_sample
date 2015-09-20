@@ -1,3 +1,5 @@
+require 'responders'
+
 class FoosController < ApplicationController
   respond_to :json
 
